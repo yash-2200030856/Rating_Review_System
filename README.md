@@ -1,52 +1,64 @@
-# Rating_Review_System
-Empowering Trust Through Seamless User Feedback
+# 📝 Ratings Review System
 
-Built with the tools and technologies:
+**Empowering Trust Through Seamless User Feedback**
 
-Express JSON Markdown npm .ENV JavaScript
+A full-stack web application for collecting, managing, and displaying user reviews and product ratings. Built with Node.js, Express.js, MySQL, and a static HTML frontend, it ensures secure user access and guarantees one review per user per product.
 
+---
 
-Overview
-Rating_Review_System is an open-source platform designed to facilitate user-generated reviews and ratings within your application, enhancing engagement and trust. It offers a modular architecture with secure authentication, review management, and administrative oversight.
+## 🚀 Tech Stack
 
-Why Rating_Review_System?
+- 🔧 **Backend**: Node.js, Express.js, MySQL
+- 🌐 **Frontend**: HTML, CSS, JavaScript
+- 🛡️ **Authentication**: Email/ID login, password encryption
+- 📦 **Environment**: `.env` for secure credentials
 
-This project streamlines the integration of review functionalities, supporting quality assurance and user interaction. The core features include:
+---
 
-🛠️ Review Submission & Management: Enables users to submit, view, and manage product reviews seamlessly.
-🔒 Secure Authentication: Implements robust login and signup flows for users and admins.
-🌐 API-Driven Architecture: Provides RESTful endpoints for scalable and flexible data operations.
-🎨 User-Friendly Frontend: Offers intuitive interfaces for reviews, login, signup, and admin controls.
-💾 Persistent Data Storage: Connects to MySQL for reliable, long-term data management.
-🚀 Modular & Maintainable: Designed for easy extension and integration into larger systems.
-Getting Started
-Prerequisites
-This project requires the following dependencies:
+## 📂 Folder Structure
+```bash
+ratings-review-system/
+├── backend/
+│ ├── server.js
+│ ├── db.js
+│ └── models/
+├── frontend/
+│ └── index.html
+└── README.md
+```
+---
 
-Programming Language: JavaScript
-Package Manager: Npm
-Installation
-Build Rating_Review_System from the source and install dependencies:
+## 📦 Getting Started
 
-Clone the repository:
+### ✅ Prerequisites
 
-❯ git clone https://github.com/yash-2200030856/Rating_Review_System
-Navigate to the project directory:
+- Node.js & npm
+- MySQL Server
+- Git (optional, for cloning)
 
-❯ cd Rating_Review_System
-Install the dependencies:
+---
 
-Using npm:
+### 🛠️ Installation
 
-❯ npm install
-Usage
-Run the project with:
-
-Using npm:
-
-npm start
-Testing
-Rating_review_system uses the {test_framework} test framework. Run the test suite with:
-
-Using npm:
-npm test
+#### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/ratings-review-system.git
+cd ratings-review-system
+```
+#### 2. Backend Setup
+```bash
+cd backend
+npm install
+```
+#### 3. Environmental Variables
+```bash
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=yourpassword
+DB_NAME=ratings_db
+PORT=3000
+```
+#### 4. Start the backend server
+```bash
+node server.js
+```
