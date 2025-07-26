@@ -1,5 +1,6 @@
 # 📝 Ratings Review System
 
+
 **Empowering Trust Through Seamless User Feedback**
 
 A full-stack web application for collecting, managing, and displaying user reviews and product ratings. Built with Node.js, Express.js, MySQL, and a static HTML frontend, it ensures secure user access and guarantees one review per user per product.
